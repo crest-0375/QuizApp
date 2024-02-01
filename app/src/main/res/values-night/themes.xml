@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuizApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:statusBarColor">#1D3557</item>
+    </style>
+
+    <style name="Theme.QuizApp" parent="Base.Theme.QuizApp" />
+
+    <style name="Theme.SplashScreen" parent="Base.Theme.QuizApp">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+</resources>
